@@ -1,0 +1,29 @@
+Q:Assume each value in this problem is represented in 16 bits 
+(which equals 2 bytes and equals 4 hex digits) 
+and represent negative numbers using two's complement notation. 
+You can think of all the values as short int.
+
+1)Let x=35 (in decimal). Write x in binary, then in hex.
+
+    (35)_10 = (0010 0011)_2 = (23)_16
+
+2)Write -x in binary (using two's complement) then in hex.
+
+    x = (0010 0011)_2 
+    -x -> (1101 1100) + 1 -> 1101 1101 -> 0xDD
+
+3)Consider the two 16-bit hex values 0xff0B and 0xfed0. 
+Is each one negative or positive? Which one is bigger?
+
+    0xff0B -> 1111 1111 0000 1011 negative 
+            original: 1000 0000 1111 0101
+            This one is bigger 
+    0xfed0 -> 1111 1110 1101 0000 negative 
+            original: 1000 0001 0011 0000
+
+
+正数的反码和补码都与原码相同。
+
+负数的反码为对该数的原码除符号位外各位取反。
+
+负数的补码为对该数的原码除符号位外各位取反，然后在最后一位加1　
