@@ -1,1 +1,3 @@
-# computer-system-organization
+# Computer System Organization 2020 Fall
+<strong>Description</strong>: This course covers the internal structure of computers, machine (assembly) language programming, and the use of pointers in high-level languages. Topics include the logical design of computers, computer architecture, the internal representation of data, instruction sets, and addressing logic, as well as pointers, structures, and other features of high-level languages that relate to assembly language. Programming assignments will be both in assembly language and other languages.<br><br>
+<strong>Content</strong>: C language programming (types, operators, and expressions; control flow; functions and program structure; pointers and arrays; structures; input and output), Computer Systems Organization(conputer systems; representing and manipulating information; machine-level representation of programs; linking; memory hierarchy; virtual memory; exceptional control flow)
